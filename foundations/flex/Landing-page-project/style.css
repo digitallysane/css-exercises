@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  box-sizing: border-box;
   /*align-items: center;*/
 }
 
@@ -36,7 +37,9 @@ body {
 }
 
 #first {
-    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    /*gap: 50px;*/
 }
 
 ul {
